@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: jms-orders
+  artemis:
+    mode: native
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+
+  jms:
+    template:
+      default-destination: demo-queue
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.jms: DEBUG
