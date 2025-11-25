@@ -1,6 +1,0 @@
-2025-11-16 14:27:47,631 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
-2025-11-16 14:47:47,632 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: CORE connection failure to 192.168.65.1:21067 has been detected: AMQ229014: Did not receive data from 192.168.65.1:21067 within the 60000ms connection TTL. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
-2025-11-16 14:47:47,636 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 780ed0cd-c2f8-11f0-a65b-cac48b888c75
-2025-11-16 14:47:47,637 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 780ed0cd-c2f8-11f0-a65b-cac48b888c75
-2025-11-16 14:47:47,638 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 7810a58e-c2f8-11f0-a65b-cac48b888c75
-2025-11-16 14:47:47,638 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 7810a58e-c2f8-11f0-a65b-cac48b888c75

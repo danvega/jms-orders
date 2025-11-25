@@ -9,10 +9,10 @@ services:
       ARTEMIS_USER: admin
       ARTEMIS_PASSWORD: admin
       ANONYMOUS_LOGIN: false
-    volumes:
-      - ./data/activemq:/var/lib/artemis-instance
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8161"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
+#    volumes:
+#      - ./data/activemq:/var/lib/artemis-instance
+#    healthcheck:
+#      test: ["CMD", "curl", "-f", "http://localhost:8161"]
+#      interval: 30s
+#      timeout: 10s
+#      retries: 5

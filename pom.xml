@@ -57,7 +57,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+                <configuration>
+                    <!-- Java 25's security model issues a warning when libraries try to access native code without explicit permission-->
+                    <jvmArguments>--enable-native-access=ALL-UNNAMED</jvmArguments>
+                </configuration>
+
+            </plugin>
 		</plugins>
 	</build>
 
